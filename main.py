@@ -12,7 +12,7 @@
 #
 #     How many elements would be contained in the set of reduced proper fractions for d ≤ 1,000,000?
 
-def main(d_max):
+def main(d_max: int) -> int:
     """
     Returns the number of distinct proper reduced fractions having denominator at most `d_max`, which are
       fractions `n/d` (where n,d are natural numbers),
